@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(44, 43, 43);
+            margin: 0;
+            height: 0;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            align-items: center;
+            border-bottom:2px solid green ;
+            position:fixed;
+            
+        }
+        header #x{
+                margin-left: 50px;
+        }
+        #o{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;align-items: center;
+            margin-right: 50px;
+            color: white;
+        }
+        #y{
+            margin-right: 30px;
+        }
+        #z{
+            margin-right:30px ;
+        }
+        nav{
+            
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin-right: 40px;
+           
+        }
+        nav ul li{
+            margin-left: 70px;
+            display: flex;
+            color: white;
+        }
+    
+        .divbodyp{
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+        .divbodyone{
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            border: 2px solid black;
+            line-height: 0;
+            height: 90%;    
+        }
+        .dd{
+            display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30em, 2fr));
+    }
+    .secfooter{
+        display: flex;
+        justify-content: center;
+    }
+    .footerul{
+        margin-left: 44px;
+        list-style: none;
+        align-items: center;
+    }
+    .one{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/65e2c8fe8969b0acb824cb97cc59fd15/razer-mid-year-gear-up-primeday-homepage-desktop2x.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image:fill ;
+    }
+    .one ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .two{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/f1d8be273c8ecbab5bc994b7fa7c3f48/kitsune-akuma-homepage2x.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .two ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .two ul{
+        margin-top: 60px;
+    }
+    .three{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/4c4602ba29bac4bd359abc9251f0dadd/razer-creator-program-homepage-large-2x.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .three ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .three ul{
+        margin: 30px;
+    }
+    .four{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/dafd040919ca96700d0486394bc50dcb/razer-back-to-school-2024-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .four ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+.four ul{
+        margin-top: 60px;
+    }
+    .five{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/e9d1f25b84209661bb678afc1a1580f8/razer-blade-18-2024-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .five ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .five ul{
+        margin-top: 60px;
+    }
+    .six{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/2ef5b37da7be946a487d825118880d3c/razerstore-rewards-signup-chairs-promo-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .six ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .six ul{
+        margin-top: 60px;
+    }
+    .seven{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/44fff28db38394dcfc43ecb1ffaf9802/nvidia-game-bundle-black-myth-wukong-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .seven ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .seven ul{
+        margin-top: 60px;
+    }
+    .eight{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/0f78ce9a0046f28101bcb84aee854ab0/razer-blade-14-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size:cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .eight ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .eight ul{
+        margin-top: 60px;
+    }
+    .nine{
+        display:flex;
+      background-image: url(https://assets2.razerzone.com/images/pnx.assets/2ef5b37da7be946a487d825118880d3c/esports-campaign-2024-b-950x580-desktop.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: azure;
+      background-image: auto fill;
+    }
+    .nine ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 20px;
+    }
+    .nine ul{
+        margin-top: 60px;
+    }
+    .secfooter{
+        background-color: rgb(20, 20, 20);
+        justify-content: space-between;
+        color: white;
+    }
+    .classfoot{
+        display: flex;
+        background-color: rgb(26, 25, 25);
+        justify-content: space-between;
+        color: white;
+    }
+    .classfoot footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .classfoot footer{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+    
+    }
+    footer ul li{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        list-style: none;
+        align-items: center;
+        
+    }
+    footer div{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 250px;
+        align-items: center;
+    } 
+    .secfooter h1{
+        color: green;
+    }
+    img{
+        background-color: black;
+        width: 60px;
+        height: 60px;
+    }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div id="x">
+        <img src="razer.png" alt="home">
+        </div>
+        <nav>
+            <ul>
+                <li>store</li>
+                <li>pc</li>
+                <li>mobile</li>
+                <li>console</li>
+                <li>lifestyle</li>
+                <li>gold</li>
+                <li>community</li>
+                <li>support</li>
+            </ul>
+            
+        </nav>
+        <ul id="o">
+        <li id="y"><span class="material-symbols-outlined">
+            search
+            </span></li>
+        <li id="z"><span class="material-symbols-outlined">
+            shopping_cart
+            </span></li>
+        </ul>
+    </header>
+        <div class="divbodyp">
+       <p>mid-year gear up: discover our prime-time specials with next-day delivery and free shrpping with no minimum spend. shop now> </p>
+        </div>
+        <section>
+        <div class="divbodyone one">
+            <ul>
+        <li><h1>mid-year gear up</h1></li>
+        <li><h3>prime-time specials</h3></li>
+        <li><h5>shop-now</h5></li>
+        </ul>
+    </div>
+        <div class="divbodyone two">
+            <ul>
+                <li><h4>only atrazer</h4></li>
+                <li><h1>razer kitsune: akuma</h1></li>
+                <li><h3>unleash the raging demon</h3></li>
+                <li><h5>learn more> notify me</h5></li>
+        </ul>
+        </div>
+        <div class="divbodyone three">
+            <ul>
+            <li><h1>new razer blade 18</h1></li>
+            <li><h3>new 4k 200 hz model available</h3></li>
+            <li><p>learn more> buy></p></li>
+            </ul>
+        </div>
+        </section>
+        <section class="dd">
+        <div class="divbodyone four">
+            <ul> 
+                <li><h1>conquer your campus</h1></li>
+                <li><h3>new back-to-school specials</h3></li>
+                    <li> <h5>shop now></h5></li>
+            </ul>
+        </div>
+        <div class="divbodyone five">
+            <ul>
+                <li><h1>fulfill your destiny</h1></li>
+                <li><h3><p>get back myth: wukong with select geforce rtx 40 series</p></h3></li>
+                <li><h5> shop now></h5></li>
+        </ul>
+        </div>
+        <div class="divbodyone six">
+            <ul>
+                <li><h1>members specials</h1></li>
+                <li><h3>bonus for razer chairs</h3></li>
+                    <li><h5> jion> login></h5></li>
+        </ul>
+        </div>
+        <div class="divbodyone seven">
+            <ul>
+                <li><h1>razer esports pro line</h1></li>
+                <li><h3>trusted by champions</h3></li>
+                    <li><h5>learn more></h5></li>
+        </ul>
+        </div>
+        <div class="divbodyone eight">
+            <ul>
+                <li><h1>new razer blade 14</h1></li>
+                <li><h3>small size,big performance</h3></li>
+                    <li> <h5>learn more> buy></h5></li>
+        </ul>
+        </div>
+        <div class="divbodyone nine">
+            <ul>
+                <li><h1>razer|frontnite</h1></li>
+                <li><h3>dety the storm</h3></li>
+                    <li><h5>learn more></h5></li>
+            </ul>
+        </div>
+    </section>
+    <section class="secfooter">
+    
+        <ul class="footerul">
+            <h4>shop</h4>
+            <li>razerstore</li>
+            <li>razercafe</li>
+            <li>store locator</li>
+            <li>puchase programs</li>
+            <li>bulk order program</li>
+            <li>education</li>
+            <li>only at razer</li>
+            <li>razer store rewards</li>
+            <li>newslatter</li>
+        </ul>
+        <ul class="footerul">
+            <h4>explore</h4>
+            <li>technology</li>
+            <li>chroma rgb</li>
+            <li>concepts</li>
+            <li>esports</li>
+            <li>collabs</li>
+        </ul>
+         <ul class="footerul">
+            <h4>support</h4>
+            <li>get help</li>
+            <li>registration & warranty</li>
+            <li>razerstore support</li>
+            <li>razer care</li>
+            <li>mange razer id</li>
+            <li>support videos</li>
+            <li>recycling program</li>
+            <li>accessibility statement</li>
+         </ul>
+         <ul class="footerul">
+            <h4>company</h4>
+            <li>about us</li>
+            <li>careers</li>
+            <li>newsroom</li>
+            <li>zventure</li>
+            <li>contact us</li>
+         </ul>
+         <ul class="footerul">
+            <h4>follow us</h4>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+        
+        <h1>for gamers,by gamers"</h1>
+    </section>
+    <hr>
+    <section class="classfoot">
+        <footer>
+            <ul>
+            <p>copyright@ 2024 razer inc. all right reserved.</p>
+            <li>site map</li>
+            <li>legal terms</li>
+            <li>privacy</li>
+            <li>cookie settings</li>
+         </ul>
+         <div>
+             <h3>united states|change location</li>
+        </div>
+        </footer>
+    </section>
+</body>
+</html>

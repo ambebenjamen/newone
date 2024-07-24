@@ -1,0 +1,516 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(39, 77, 201);
+            color: white;
+        }
+        header{
+            display: flex;
+        }
+        nav{   
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        
+        }
+        nav ul{
+            margin-right: 80px;
+            display:flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+        }
+    nav ul li{
+            margin-left: 50px;
+        }
+        #button{
+            margin-left:100px;
+            padding: 30px;
+            
+        }
+        .button{
+            height:40px;
+            width: 70px;
+            border-radius: 23px;
+            margin-right: 20px;
+            border: 0 ;
+        }
+        .divone{
+            border: 0px solid rgb(46, 75, 207);
+            margin: 30px;
+            margin-right: 70%;
+            margin-top: 80px;
+            margin-left:120px;
+            font-size: larger;
+        }
+        .head{
+            margin-left: 50px;
+            margin-top: 90px;
+        
+        }
+        .logo{
+        height: 80px;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+        }
+        img{
+            height: 90px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+            
+        }
+        .bnt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+        }
+        .bnt button:last-child{
+            border: 0;
+            padding: 10px;
+            margin-left: 9px;
+            border-radius: 23px;
+            background-color: rgb(6, 6, 179);
+            color: white;
+        }
+        .bnt button{
+            border: 0;
+            padding: 10px;
+            margin-left: 9px;
+            border-radius: 23px;
+            background-color: rgb(249, 249, 253);
+            color: rgb(17, 16, 16);
+            font-size: large;
+            margin-bottom: 16px;
+        }
+        main{
+            
+        }
+        
+        .divf{
+            display: grid;
+            background-color: rgb(50, 50, 238);
+            border: 2px solid rgb(60, 60, 238);
+            grid-gap: 40px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:2fr ;
+            border-radius: 23px;
+            padding: 9px;
+            margin: 20px;
+            
+        }
+
+        video{
+            border-radius: 23px;
+            height: 100%;
+            width: 100%;
+            
+            background-color: rgb(17, 17, 204);
+        }
+        #ved{
+            height:100%;
+            width: 100%;
+        }
+        #text{
+            width: 90%;
+            height: 400px;;
+            font-size: 25px;
+            margin-left: 12px;
+        }
+        .divs{
+            display: grid;
+            background-color: rgba(50, 50, 238);
+            border: 2px solid rgba(60, 60, 238);
+            grid-gap: 40px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:2fr ;
+            border-radius: 23px;
+            padding: 9px;
+            margin: 20px;
+            margin-top: 200px;
+        }
+        video{
+            border-radius: 23px;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(17, 17, 204);
+        }
+        #one{
+            
+            width: 90%;
+            height: 400px;
+            font-size: 25px;
+            margin-left: 12px;
+        }
+        #two{
+           
+            height:100%;
+            width: 100%; 
+        }
+        .hop{
+            display: grid;
+            background-color: rgba(50, 50, 238);
+            border: 2px solid rgba(60, 60, 238);
+            grid-gap: 40px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:2fr ;
+            border-radius: 23px;
+            padding: 9px;
+            margin: 20px;
+            margin-top: 200px;
+        } 
+        video{
+          
+            border-radius: 23px;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(17, 17, 204);
+        }
+        #ho{
+            
+            height:100%;
+            width: 100%; 
+        }
+        #h{
+            width: 90%;
+            height: 400px;;
+            font-size: 28px;
+            margin-left: 12px;
+        }
+        .three{
+            display: grid;
+            background-color: rgb(50, 50, 238);
+            border: 2px solid rgb(60, 60, 238);
+            grid-gap: 40px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:2fr ;
+            border-radius: 23px;
+            padding: 9px;
+            margin: 20px;
+        }
+        
+        video{
+          
+            border-radius: 23px;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(17, 17, 204);
+      }
+        #four{
+            width: 90%;
+            height: 400px;;
+            font-size: 25px;
+            margin-left: 12px; 
+        }
+        #five{
+            height:100%;
+            width: 100%;
+        }
+        .last{
+            display: grid;
+            background-color: rgb(50, 50, 238);
+            border: 2px solid rgb(60, 60, 238);
+            grid-gap: 40px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows:2fr ;
+            border-radius: 23px;
+            padding: 9px;
+            margin: 20px;
+        }
+        video{
+            border-radius: 23px;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(17, 17, 204);
+        }
+        .lasto{
+            height:100%;
+            width: 100%; 
+        }
+        .lastt{
+            width: 90%;
+            height: 400px;;
+            font-size: 28px;
+            margin-left: 12px;
+        }
+        .end{
+            display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-wrap: wrap;
+             width:100% ;
+             height: 600px;
+            
+        }
+        .end div{
+            border:0;
+            width: 500px;
+
+        }
+        .end div h1{
+            margin: 50px;
+            font-size: 40px;
+        }
+        .end div button{
+       margin-left: 35%;
+       border: 0;
+       margin-bottom: 9px;
+       border-radius: 23px;
+       padding: 13px;
+       background-color: rgb(54, 96, 236);
+       color: white;
+        }
+        .footerone{
+            display: grid;
+            grid-template-columns: 2fr repeat(4, 1fr);
+            grid-gap: 40px;
+         
+         
+        }
+        .footerone .ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        .footerone .ul li{
+            list-style: none;
+        }
+        .footerone ul li{
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        .footerone ul{
+           
+            
+        }
+        .footerone ul h5{
+            align-content: center;
+            align-items: center;
+        }
+        .footertwo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .footertwo button{
+           margin-right: 20px;
+           padding: 8px;
+           background-color: rgb(43, 61, 224);
+           border-radius: 23px;
+           border: 0;
+           color: white;
+        }
+        main{
+            background-color: rgb(119, 45, 189);
+        }
+        hr{
+         margin-left: 30px;
+         margin-right: 30px;
+        }
+            
+        
+
+    
+    
+    </style>
+ </head>
+ <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="deco.png" alt="#">
+                </div>
+           <div>
+            <ul>
+                <li>download</li>
+                <li>nitro</li>
+                <li>discover</li>
+                <li>safety</li>
+                <li>support</li>
+                <li>blog</li>
+                <li>careers</li>
+            </ul>
+        </div>
+        <div id="button">
+            <button class="button">login</button>
+        </div>
+    </nav>
+</header> 
+<section class="head">
+    <div class="divone">
+        <h1>
+            group chat thats all fun & game
+        </h1>
+        <p>discord is great for playing games and chilling with friends,or even building a worldwide community. customize your own space to talk,and hang out.</p>
+    </div>
+</section>
+<div class="bnt">
+    <button>
+  downoad windows
+</button>
+<button>
+    open discord in your browser
+</button>
+</div>
+    <div class="divf">
+        <div id="ved">
+         <video autoplay loop >
+          <source src="video.mp4" type="video/mp4">
+
+         </video>
+        </div>
+        <div id="text">
+            <h1>make your group chats more fun</h1>
+            <p>use custom emoji, stickers, soundboard effects and more to add your personality to your video, or text chat. set your avatar and a custom status, and write your own profile to show up in chat your way.</p>
+        </div>
+    </div>
+    <div class="divs">
+        <div id="one">
+   <h1>stream like your're in the same room</h1>
+   <p>high quaity and low atency streaming nakes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.</p>
+        </div>
+        <div id="two">
+            <video autoplay loop>
+              <source src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2%2F665434315cbc60da2d4c9684_Discord_Website_Refresh_Same%20Room_EN_V2-transcode.mp4">
+            </video>
+        </div>
+        </div>
+<div class="hop">
+    <div id="ho">
+      <video autoplay loop>
+        <source src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6638c6b04eff56a99c1e2d7d_Discord_Website_Refresh_Hop-In-transcode.mp4">
+      </video>
+    </div>
+    <div id="h">
+        <h1> hop in when you're free no need to call</h1>
+        <p>easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.</p>
+    </div>
+</div>
+<div id="anim">
+    <p class="yy"> hang out, tak, play, chat </p>
+</div>
+<div class="divf">
+    <div id="ved">
+      <h1>WHEREVER YOU GAME, HANG OUT HERE</h1>
+      <p>See who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up.</p>
+    </div>
+    <div id="text">
+    <video autoplay loop>
+        <source src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6638c7e8907412911166f683_Discord_Website_Refresh_See%20Who_s%20Around-transcode.mp4">
+    </video>
+    </div>
+</div>
+<div class="three">
+    <div id="five">
+        <video autoplay loop >
+            <source src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66446078b3e738a7c1f85e35_Discord_Website_Refresh_Activities_03-transcode.mp4">
+        </video>
+        </div>
+    <div id="four">
+     <h1>ALWAYS HAVE SOMETHING TO DO TOGETHER</h1>
+     <p>Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat.</p>
+    </div>
+</div>
+<div class="last">
+    <div class="lasto">
+<h1>
+    WHEREVER YOU GAME, HANG OUT HERE
+</h1>
+<p>
+    On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends.
+</p>
+    </div>
+    <div class="lastt">
+<video autoplay loop>
+    <source src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6638c8e7cb756886cd8d61af_Discord_Website_Refresh_Platforms-transcode.mp4">
+</video>
+    </div>
+</div>
+<section class="end">
+<div>
+    <h1>
+YOU CAN'T SCROLL ANYMORE.
+BETTER GO CHAT.  
+    </h1>
+    <button>
+        Download for Windows
+    </button>
+</div>
+</section>
+<main>
+<footer class="footerone">
+    <div class="ul">
+        <p></p>
+        <ul>
+            <li>X</li>
+            <li>instagram</li>
+            <li>facebook</li>
+            <li>youtube</li>
+            <li>tiktok</li>
+        </ul>
+    </div>
+         <ul>
+            <h5>product</h5>
+            <li>download</li>
+            <li>nitro</li>
+            <li>status</li>
+            <li>app directory</li>
+            <li>new mobile experience</li>
+         </ul>
+         <ul>
+            <h5>company</h5>
+            <li>about</li>
+            <li>jobs</li>
+            <li>brand</li>
+            <li>newroom</li>
+         </ul>
+         <ul>
+            <h5>resources</h5>
+            <li>college</li>
+            <li>support</li>
+            <li>safety</li>
+            <li>blog</li>
+            <li>feedback</li>
+            <li>streamkit</li>
+            <li>creator</li>
+            <li>community</li>
+            <li>developers</li>
+            <li>gaming</li>
+            <li>quests</li>
+            <li>official 3rd party merch</li>
+         </ul>
+         <ul>
+            <h5>policies</h5>
+            <li>terms</li>
+            <li>privacy</li>
+            <li>cookie settings</li>
+            <li>guidelines</li>
+            <li>acknowledgements</li>
+            <li>licenses</li>
+            <li>company information</li>
+         </ul>
+</footer>
+<hr>
+<footer class="footertwo">
+ <div class="logo">
+     <img src="deco.png" alt="#">
+     </div>
+     <button>sign up</button>
+</footer>
+</main>
+ </body>
+ </html>
